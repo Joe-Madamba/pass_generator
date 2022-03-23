@@ -7,10 +7,10 @@ from os import path
 
 print('Create random password')
 
-pass_length = int(
-    input('what is the minimum length required for your password?: '))
+pass_length = int(input('what is the minimum length required for your password?: '))
 
 passwordIsUsedFor = str(input('What is this password for?:'))
+passwordIsUsedFor = passwordIsUsedFor.title()
 
 lower = string.ascii_lowercase
 upper = string.ascii_uppercase
